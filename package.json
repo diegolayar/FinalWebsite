@@ -1,0 +1,24 @@
+{
+  "name": "FinalWebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url /FinalWebsite",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://diegolayar.github.io/FinalWebsite",
+  "dependencies": {
+    "emoji-dictionary": "^1.0.11",
+    "locomotive-scroll": "^4.0.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0",
+    "parcel": "^1.9.7",
+    "sass": "^1.32.5"
+  }
+}
